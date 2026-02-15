@@ -152,7 +152,7 @@ typedef enum
 - `photo.c` – Photo interrupter FSM (floor detection)  
 - `resident_uart.c` – UART command processing  
 - `logger.c` – Debug logging output  
-```
+
 
 ---
 

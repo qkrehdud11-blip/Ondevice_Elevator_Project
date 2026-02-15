@@ -1,0 +1,25 @@
+# Build outputs
+Debug/
+Release/
+build/
+*.o
+*.a
+*.elf
+*.map
+*.lst
+*.d
+*.su
+
+# STM32CubeIDE / Eclipse
+.metadata/
+.settings/
+*.launch
+*.log
+
+# CubeMX
+*.ioc
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

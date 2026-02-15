@@ -142,17 +142,17 @@ typedef enum
 ## 📂 Project Structure
 
 ```
-Core/Src
+### 📁 Core/Src
 
-- `main.c` –             // Main loop
-- `app.c` –              // System control
-- `elevator.c` –         // Elevator state machine
-- `stepper.c` –          // Lift motor control
-- `servo.c` –            // Door control
-- `button.c` –           // Button input handling
-- `photo.c` –            // Photo Interrupter FSM
-- `resident_uart.c` –    // UART command handling
-- `logger.c` –           // Debug log output
+- `main.c` – Main loop & system entry point
+- `app.c` – Overall system control logic
+- `elevator.c` – Elevator state machine implementation
+- `stepper.c` – Lift motor (stepper) control
+- `servo.c` – Door open/close control
+- `button.c` – Button input handling & debouncing
+- `photo.c` – Photo interrupter FSM (floor detection)
+- `resident_uart.c` – UART command processing
+- `logger.c` – Debug logging output
 ```
 
 ---
